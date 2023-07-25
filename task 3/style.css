@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 98.5%;
+    height: 7vh;
+    background-color: #534194;
+    padding: 10px;
+    display: flex;
+}
+.links{
+    width: 25%;
+    float: left;
+}
+.header_back{
+    color: rgb(196, 196, 196);
+    line-height: 7vh;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    padding: 10px;
+}
+.header_back:hover{
+    color: white;
+}
+.Search_box{
+     width: 35%;
+     line-height: 6vh; 
+     text-align: center;
+
+}
+.icon{
+    color: white;
+    font-size: larger;
+    width: 5%;
+    float: left;
+    line-height: 7vh;
+}
+.img{
+    width: 20%;
+    
+}
+.profile_pic{
+    background-image: url(sp.jpg);
+    width: 50px;
+    height: 8vh;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    line-height: 6vh;
+    float: right;
+}
+.icon_last{
+    color: white;
+    font-size: larger;
+    width: 15%;
+    float: left;
+    line-height: 7vh;
+    letter-spacing: 15px;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: 87vh;
+    display: flex;
+    
+}
+.left_box{
+    width: 5%;
+    background-color: rgb(69, 68, 68);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+}
+.left_box div{
+    margin-top: 20px;
+}
+.left_box_last_icons{
+    position: absolute;
+    bottom: 1px;
+    left:17px;
+}
+.left_box_2{
+    width: 20%;
+    position: absolute;
+    background-color: white;
+    position: relative;
+}
+.left_box_2 div{
+    width: 100%
+}
+.box_2_links{
+    display: block;
+    text-decoration: none;
+    color: black;
+    
+}
+.box_2_item{
+    font-size: x-large;
+    line-height: 25px; 
+}
+.box3{
+    width: 75%;
+    background-color: rgb(210, 206, 206);
+    
+}
+.upper_heading{
+    height: 5vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 20px;
+    font-size: x-large;    
+}
+.upper_heading img ,.upper_heading p, .upper_heading h5, .upper_heading h4 {
+    margin-right: 10px;
+}
+.upper_heading i{
+    color: #534194;
+}
+.upper_heading input{
+    position: absolute;
+    right: 15px;
+}
+.btn{
+    color: #534194;
+    background-color:rgb(187, 184, 184) ;
+    padding: 7px;
+    border: 0;
+}
+.box3_head2{
+    height: 2vh;
+    word-spacing: 5px;
+    font-size: medium;
+    padding-left: 20px;
+}
+.box3_head2 a{
+    text-decoration: none;
+    color:black;
+}
+.box3_head2 a:hover{
+    color:#534194;
+    text-decoration: underline;
+}
+.head_item_1{
+    padding: 12px 22px;
+    display: flex;
+    
+}
+.head_item_1 img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    
+}
+.box3_chat{
+    margin-left: 10px;
+    font-size: 20px;
+    border:1px solid rgb(180, 176, 176);
+    font-size: 15px;
+    width: 85%;
+}
+.one{
+    padding: 1px 10px;
+    background-color: white; 
+}
+.two{
+    padding: 1px 10px;
+    background-color: rgb(210, 206, 206);
+}
+.head_item_2{
+    width: 59vw;
+    height: 3vh;
+    margin-left: 80px;
+    padding: 5px;
+}
+.words_space{
+    word-spacing: 15px;
+    font-size: large;
+    position: relative;
+}
+.send{
+    position: absolute;
+    right: 0;
+}
