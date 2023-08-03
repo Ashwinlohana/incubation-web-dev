@@ -1,0 +1,32 @@
+.header,.footer{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.header{
+    background-color: rgb(240, 55, 55);
+}
+.flex_container{
+    display: flex;
+    flex: 100%;
+    font-size: 30px;
+}
+.side1, .side2{
+    flex:25%;
+    text-align: center;
+}
+.center{
+    flex: 50%;
+    text-align: center;
+    background-color: rgb(26, 159, 174);
+    padding: 10px 0px;
+}
+.side1{
+    background-color: rgb(243, 164, 39);
+}
+.side2{
+    background-color:rgb(239, 102, 115);
+}
+.footer{
+    background-color: rgb(91, 242, 91);
+}
